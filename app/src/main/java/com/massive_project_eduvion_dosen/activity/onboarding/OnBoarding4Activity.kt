@@ -1,12 +1,25 @@
 package com.massive_project_eduvion_dosen.activity.onboarding
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.massive_project_eduvion_dosen.R
+import com.massive_project_eduvion_dosen.databinding.ActivityOnBoarding4Binding
 
 class OnBoarding4Activity : AppCompatActivity() {
+    private lateinit var binding: ActivityOnBoarding4Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_on_boarding4)
+        binding = ActivityOnBoarding4Binding.inflate(layoutInflater)
+        setContentView(binding.root)
+    }
+    fun navigateToOnBoarding5(view: View) {
+        val intent = Intent(this, OnBoarding5Activity::class.java)
+        startActivity(intent)
+    }
+    fun navigateToOnBoarding3(view: View) {
+        val intent = Intent(this, OnBoarding3Activity::class.java)
+        startActivity(intent)
     }
 }

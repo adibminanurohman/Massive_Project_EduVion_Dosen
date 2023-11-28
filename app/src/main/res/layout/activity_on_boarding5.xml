@@ -65,7 +65,7 @@
         android:background="@android:color/transparent"
         android:contentDescription="button mulai aplikasi"
         android:src="@drawable/btnmulaiapp"
-        android:onClick="navigateToOnBoarding6"
+        android:onClick="navigateToOnBoarding7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

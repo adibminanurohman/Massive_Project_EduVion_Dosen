@@ -82,7 +82,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:contentDescription="button sebelumnya"
-        android:onClick="navigateToOnBoarding6"
+        android:onClick="navigateToOnBoarding5"
         android:src="@drawable/btnback"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
