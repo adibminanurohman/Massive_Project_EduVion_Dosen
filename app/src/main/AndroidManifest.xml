@@ -14,13 +14,50 @@
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.onboarding.OnBoarding7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.onboarding.OnBoarding5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.onboarding.OnBoarding4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.onboarding.OnBoarding3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.onboarding.OnBoarding2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.onboarding.OnBoarding1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+        <activity
+            android:name=".activity.onboarding.SplashActivity"
             android:exported="true">
+<!--            android:theme="@style/SplashTheme">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
