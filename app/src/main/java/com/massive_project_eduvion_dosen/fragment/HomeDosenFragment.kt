@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.massive_project_eduvion_dosen.activity.CalenderActivity
 import com.massive_project_eduvion_dosen.activity.EJurnalActivity
+import com.massive_project_eduvion_dosen.activity.NotifikasiActivity
 import com.massive_project_eduvion_dosen.databinding.FragmentHomeDosenBinding
 
 class HomeDosenFragment : Fragment() {
@@ -28,6 +29,9 @@ class HomeDosenFragment : Fragment() {
         binding.imageButton4.setOnClickListener {
             navigateToKalenderActivity()
         }
+        binding.imageButton3.setOnClickListener {
+            navigateToNotifikasiActivity()
+        }
         // Inflate the layout for this fragment
         return binding.root
     }
@@ -38,6 +42,10 @@ class HomeDosenFragment : Fragment() {
     }
     private fun navigateToKalenderActivity() {
         val intent = Intent(requireContext(), CalenderActivity::class.java)
+        startActivity(intent)
+    }
+    private fun navigateToNotifikasiActivity() {
+        val intent = Intent(requireContext(), NotifikasiActivity::class.java)
         startActivity(intent)
     }
 }
