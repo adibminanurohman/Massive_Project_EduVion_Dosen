@@ -8,170 +8,106 @@
     tools:context=".activity.LoginActivity">
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:id="@+id/imageView12"
+        android:layout_width="48dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="354dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="706dp"
         android:src="@drawable/minilogo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/latoblack"
-        android:text="Masuk"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.159"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.157" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/latoregular"
-        android:text="Selamat datang kembali!"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.232"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.014" />
-
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="549dp"
         android:src="@drawable/imglogin"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.092"
-        />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:onClick="navigateToBarcode1"
-        android:contentDescription="Scan barcode"
-        android:src="@drawable/barcode"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.332"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="match_parent"
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/selamatdatangkembali"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"/>
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="213dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="312dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/scanviaqr"
+        android:onClick="navigateToBarcode1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:src="@drawable/or"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:layout_constraintVertical_bias="0.114" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton16" />
 
     <EditText
-        android:id="@+id/editText2"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="8dp"
-        android:background="@drawable/framekatasandi"
-        android:fontFamily="@font/latoregular"
-        android:hint="     Kata sandi"
-        android:textSize="17sp"
+        android:id="@+id/editText4"
+        android:layout_width="291dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/white"
+        android:hint="Nama pengguna/email kampus"
+        android:paddingStart="25dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="291dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/white"
+        android:hint="Kata sandi"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingStart="25dp"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <ImageButton
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Button login"
-        android:scaleType="fitXY"
-        android:src="@drawable/btnmasuk"
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:backgroundTint="#00FFFFFF"
         android:onClick="navigateLoginToLoadingScreen"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/bt_masuk"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        app:layout_constraintVertical_bias="0.458" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="8dp"
-        android:background="@drawable/frameemail"
-        android:fontFamily="@font/latoregular"
-        android:hint="     Nama pengguna/Email kampus"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.097" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/latoblack"
-        android:text="@string/scan_barcode"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.336"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:contentDescription="Login Google"
-        android:src="@drawable/google"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.198"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/latoblack"
-        android:text="@string/google_signin"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.658"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:layout_constraintVertical_bias="0.0" />
-
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 </androidx.constraintlayout.widget.ConstraintLayout>

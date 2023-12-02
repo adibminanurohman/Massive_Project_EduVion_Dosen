@@ -8,8 +8,8 @@
     tools:context=".activity.onboarding.OnBoarding3Activity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="104dp"
         android:contentDescription="logo Eduvion"
         android:src="@drawable/minilogo"
         app:layout_constraintBottom_toBottomOf="parent"
