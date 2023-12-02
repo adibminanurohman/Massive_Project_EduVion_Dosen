@@ -13,6 +13,21 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".activity.UnggahEJurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PengaturanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RoomChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EJurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CalenderActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.LoadingScreenActivity"
             android:exported="false" />
         <activity
