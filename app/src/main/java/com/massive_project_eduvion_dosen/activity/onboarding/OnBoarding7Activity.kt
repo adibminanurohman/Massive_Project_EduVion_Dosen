@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.massive_project_eduvion_dosen.R
 import com.massive_project_eduvion_dosen.activity.LoginActivity
 import com.massive_project_eduvion_dosen.databinding.ActivityOnBoarding7Binding
 
