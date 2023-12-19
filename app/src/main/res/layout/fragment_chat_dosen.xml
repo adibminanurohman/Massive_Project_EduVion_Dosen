@@ -84,11 +84,9 @@
 
             <ImageButton
                 android:id="@+id/imageView10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
+                android:layout_width="362dp"
+                android:layout_height="52dp"
                 android:layout_marginTop="32dp"
-                android:layout_marginEnd="33dp"
                 android:backgroundTint="#00FFFFFF"
                 android:src="@drawable/chatpeter"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -97,12 +95,10 @@
 
             <ImageView
                 android:id="@+id/imageView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="33dp"
-                android:src="@drawable/chatridwan"
+                android:layout_width="362dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:src="@drawable/chatuserridwan"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView10" />
