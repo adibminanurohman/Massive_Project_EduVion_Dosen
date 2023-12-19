@@ -59,7 +59,14 @@
             android:exported="false" />
         <activity
             android:name=".activity.onboarding.OnBoarding1Activity"
-            android:exported="false" />
+            android:exported="true">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity
             android:name=".activity.LoginActivity"
             android:exported="false" /> <!-- <activity -->
@@ -75,11 +82,6 @@
             android:exported="true">
 
             <!-- android:theme="@style/SplashTheme"> -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
