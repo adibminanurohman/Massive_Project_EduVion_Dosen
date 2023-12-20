@@ -71,6 +71,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/editTextText"
+                app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
                 app:tabIndicator="@drawable/tab_indicator"
                 app:tabIndicatorAnimationMode="elastic"
                 app:tabIndicatorColor="@null"
