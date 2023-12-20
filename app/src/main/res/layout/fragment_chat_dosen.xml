@@ -83,13 +83,12 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="362dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="32dp"
-                android:backgroundTint="#00FFFFFF"
-                android:src="@drawable/chatpeter"
+                android:src="@drawable/chatuserpeter"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
